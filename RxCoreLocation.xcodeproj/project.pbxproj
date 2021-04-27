@@ -10,11 +10,7 @@
 		3549BB501DA38A2000C63030 /* RxCoreLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3549BB181DA3890B00C63030 /* RxCoreLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A85013AF204F093C00094A90 /* RxKeyPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85013AE204F093C00094A90 /* RxKeyPaths.swift */; };
 		C4A5FBBB25A25E4100B9A09D /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A5FBB425A25E4000B9A09D /* RxSwift.framework */; };
-		C4A5FBBD25A25E4100B9A09D /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A5FBB525A25E4000B9A09D /* RxBlocking.framework */; };
-		C4A5FBBF25A25E4100B9A09D /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A5FBB625A25E4000B9A09D /* Quick.framework */; };
-		C4A5FBC125A25E4100B9A09D /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A5FBB725A25E4000B9A09D /* RxTest.framework */; };
 		C4A5FBC325A25E4100B9A09D /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A5FBB825A25E4000B9A09D /* RxCocoa.framework */; };
-		C4A5FBC525A25E4100B9A09D /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A5FBB925A25E4000B9A09D /* Nimble.framework */; };
 		C4A5FBC725A25E4100B9A09D /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A5FBBA25A25E4100B9A09D /* RxRelay.framework */; };
 		C4B8B1FC1FA50C1E005E0A69 /* RxSelectors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B8B1FB1FA50C1E005E0A69 /* RxSelectors.swift */; };
 		C4B8B2011FA5C9D0005E0A69 /* RxEventTypealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B8B2001FA5C9D0005E0A69 /* RxEventTypealias.swift */; };
@@ -69,12 +65,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4A5FBBB25A25E4100B9A09D /* RxSwift.framework in Frameworks */,
-				C4A5FBBD25A25E4100B9A09D /* RxBlocking.framework in Frameworks */,
-				C4A5FBC125A25E4100B9A09D /* RxTest.framework in Frameworks */,
-				C4A5FBC525A25E4100B9A09D /* Nimble.framework in Frameworks */,
 				C4A5FBC725A25E4100B9A09D /* RxRelay.framework in Frameworks */,
 				C4A5FBC325A25E4100B9A09D /* RxCocoa.framework in Frameworks */,
-				C4A5FBBF25A25E4100B9A09D /* Quick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +392,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = rx.community.RxCoreLocation;
 				PRODUCT_NAME = RxCoreLocation;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -425,6 +418,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = rx.community.RxCoreLocation;
 				PRODUCT_NAME = RxCoreLocation;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
